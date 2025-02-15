@@ -1,0 +1,696 @@
+<!-- Name: Manal Ibrahim -->
+<!-- track: software testing Tanta -->
+<html>
+<head>
+    
+    
+    <title>MY Fruits Shop</title>
+    <style>
+/* Body Style */
+        body {
+            font-family: Arial;
+            margin: 0;
+            padding: 0;
+                              /* light grey background color code */
+            background-color: #f5f5f5; 
+        }
+
+        /* Navbar Style */
+        .navbar {
+            width: 100%;
+            background-color: #f5f5f5;
+            padding: 20px 50px;
+        }
+
+        .my-logo {
+            display: inline-block;
+        }
+
+        .logo-img {
+      /*image dimensions*/
+            width: 30px; 
+            height: 30px;
+        }
+
+        .logo-text {
+            font-size: 20px;
+            font-weight: bold;
+            color: black;
+            margin-left: 10px;
+        }
+span [class= "home-fruit"]{
+ text-decoration: none;
+color : black;
+}
+
+        .menu {
+            display: inline-block;
+            margin-left: 800px; 
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul li {
+            display: inline-block;
+            margin-left: 20px;
+        }
+
+        ul li a {
+            text-decoration: none;
+/* dark gray color code*/
+            color: #333;
+            font-size: 16px;
+        }
+
+        .search-container {
+            display: inline-block;
+            margin-left:0px;             
+        }
+
+        .search-icon {
+            width: 20px;
+            height: 20px;
+        }
+
+        /* Welcome Section Style */
+        .welcome-section {
+            width: 100%;
+            padding: 20px 50px;
+            background-color: #f5f5f5; /* Very light grey background */
+margin-top :0;
+        }
+
+        .text-container {
+            display: inline-block;
+            width: 45%;
+        }
+
+        h1[text-container]  {
+            font-size: 32px;
+            color: #333;
+            margin-bottom: 20px;
+margin-top :0;
+padding-top: 0px;
+
+        }
+
+        p[text-container]  {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .button-container {
+            display: inline-block;
+        }
+
+        .shop-now-btn, .contact-us-btn {
+            text-decoration: none;
+            padding: 12px 30px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            border-radius: 4px;
+            cursor: pointer;
+            display: inline-block;
+            margin-right: 20px; /* Space between buttons */
+        }
+
+        .shop-now-btn {
+            background-color: darkorange;
+            color:white;
+        }
+
+        .shop-now-btn:hover {
+            background-color: orange;
+            color: black;
+        }
+
+        .contact-us-btn {
+            background-color: black;
+            color: white;
+        }
+
+        .contact-us-btn:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .image-container {
+            display: inline-block;
+            width: 30%;
+           margin-left : 30px;
+         margin-top: 50px;
+
+        }
+
+        .dish-image {
+            margin-left: 30px;
+            width: 80%;
+            height: auto;
+        }
+ 
+
+    /* Our Services Section */
+    .our-services {
+      background-color: white;
+      padding: 40px 20px;
+      text-align: center;
+display :inline-block;
+    }
+
+    .our-services h2 {
+      color: black;
+      margin-bottom: 20px;
+    }
+
+    .services-container {
+      display: inline-block;
+      width: 20%;
+      margin: 5px;
+      background: #fff;
+      border: 3px solid lightgray;
+      border-radius: 5px;
+      padding: 20px;
+      
+    }
+
+    .services-container img {
+      display: block;
+      margin: 0 auto 15px;
+      width: 50px;
+      height: auto;
+    }
+
+    .services-container h3 {
+      color: orange;
+      margin: 10px 0;
+    }
+
+    .services-container p {
+      color: #333;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .read-more-btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: black;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .read-more-btn:hover {
+      background-color: white;
+      color: black;
+    }
+.services-container:hover {
+     border-top-color:orange;
+      
+    }
+
+
+    /* Fresh Fruits Section */
+      .fresh-fruits {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: white;
+
+
+width: 100%;
+
+      
+
+  }
+.fruit-elem {
+            width: 60%;
+            padding: 20px 90px;
+            background-color: white; /* Very light grey background */
+margin-top :0;
+text-align: center;
+        }
+ .fruit-container {
+            display: inline-block;
+            width: 15%;
+           margin-left : 120px;
+         margin-top: 50px;
+       padding-left: 300px;
+margin-right: 5px;
+text-align : right;
+
+        }
+
+  h2 .fresh-fruits {
+  display: inline-block;
+    color: black;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: bold;
+
+  }
+
+  .fruit-text-container {
+    display: inline-block;
+    width: 30%;
+    margin: 5px;
+    text-align: left;
+  
+  }
+p [class ="best fresh"]{
+padding-left : 5px;
+display : inline-block;
+margin-right: 20px;
+}
+
+  
+
+  .fruit-buy-now-btn {
+   
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: black;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+  .fruit-buy-now-btn:hover {
+    background-color: white;
+color: black;
+    
+  }
+/*tasty-section*/
+  .image-back-container {
+      position: relative;
+      text-align: center;
+      width: 100%;
+      height: 400px; 
+    }
+
+    .image-back-container img {
+      width: 100%;
+      height: 100%;
+      display: inline-block;
+    }
+
+    div [class ="overlay-text"] {
+      position: absolute;
+      top: 50%;
+      left: 30%;
+      text-align :center;
+      padding-right:0px;
+
+      padding-left:6px;
+
+      margin-left:0px;
+      margin-right:0px;
+      font-size: 60px;
+      font-weight: bold;
+      color: white;
+      text-transform: uppercase;
+    }
+ .testimonial-container img {
+      display: block;
+      margin: 0 auto 15px;
+      width: 200px;
+      height: auto;
+    }
+.testimonial-section {
+      background-color: white;
+
+    }
+
+#client-name{
+font-size : 20px;
+text-align : center;
+}
+
+  .contact-section {
+      display: inline-block;
+      width: 100%;
+      padding: 30px;
+      text-align: left;
+      margin-top: 0px;
+    }
+
+    .form-container {
+      display: inline-block;
+      width: 60%;
+margin-top: 0px;
+     
+    }
+
+    .form-container h2 {
+      font-size: 28px;
+      font-weight: bold;
+      margin-top: 0px;
+      margin-bottom: 30px;
+    }
+
+    .form-container form input
+   {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+border: none;
+      border-bottom: 2px solid gray;
+      border-radius: 1px;
+    }
+
+    .form-container form button {
+      background-color:darkorange;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .form-container form button:hover {
+      background-color: orange;
+    }
+
+      .image-contact-container {
+      display: inline-block;
+      width: 34%;
+      text-align:right;
+padding-right: 0px;
+margin-right:0px;
+margin-left:40px;
+padding-left:0.1px;
+      
+    }
+
+    .image-contact-container img {
+      max-width: 30%;
+      border-radius: 10px;
+padding-right: 0px;
+margin-right:0px;
+    }
+input[class="mes"]{
+margin-top: 30px;
+}
+
+/* page footer section*/
+
+  .footer-section {
+      width: 100%;
+      background-color: white;
+      padding: 40px 0;
+    }
+
+    .footer-container {
+      width: 100%;
+      text-align: left;
+      padding: 0 10%;
+    }
+
+    /* columns style */
+    .footer-column {
+      display: inline-block;
+      width: 22%;
+      margin-right: 2%;
+      vertical-align: top;
+    }
+
+    /* Style for headlines */
+    .footer-column h4 {
+      font-size: 20px;
+    
+      margin-bottom: 10px;
+    }
+#column-head{
+font-size: 30px;
+   
+      margin-bottom: 20px;
+}
+
+    /* Style for paragraphs */
+    .footer-column p {
+      font-size: 14px;
+      color: #333;
+      line-height: 1.6;
+      margin: 5px 0;
+    }
+
+    /* Follow Us icons */
+    .social-icons {
+      margin-top: 15px;
+    }
+
+    .social-icons a {
+      margin-right: 15px;
+      text-decoration: none;
+    }
+
+    .social-icons img {
+      width: 30px;
+      height: 30px;
+    }
+
+    /* Subscribe form */
+    .subscribe-form {
+      margin-top: 10px;
+    }
+
+    .subscribe-form input {
+      width: 70%;
+      padding: 8px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    
+    }
+
+    .subscribe-form button {
+      background-color: orange;
+      color: white;
+      padding: 8px 15px;
+      border: none;
+      font-size: 20px;
+      cursor: pointer;
+      margin-top : 30px;
+     margin-left : 40px;
+    }
+
+    .subscribe-form button:hover {
+      background-color: darkorange;
+    }
+
+    /* Footer copyright section */
+    .copyright {
+      background-color: #eaeaea;
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+      color: #666;
+      margin-top: 20px;
+    }
+
+
+  </style>
+</head>
+<body>
+
+ 
+
+    </style>
+</head>
+<body>
+
+    <!-- Navbar Section -->
+    <div class="navbar">
+        <div class="my-logo">
+            <img src="../lab/images/logo.png" class="logo-img" >
+            <span class="logo-text"><a href="home.html" class= "home-fruit">Fruits Shop</a></span>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="home.html" class="nav-link">Home</a></li>
+                <li><a href="fruits.html" class="nav-link">Fruits</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="contactus.html" class="nav-link">Contact Us</a></li>
+ <li><a href="contactus.html" class="nav-link"><div class="search-container">
+            <img src="../lab/images/search.png" class="search-icon" >
+        </div></a></li>
+            </ul>
+        </div>
+       
+    </div>
+
+    <!-- Welcome Section -->
+    <div class="welcome-section">
+        <div class="text-container">
+            <h1>Welcome to Our Fruits Shop</h1>
+<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+            <div class="button-container">
+                <a href="fruits.html" class="shop-now-btn">Shop Now</a>
+                <a href="contactus.html" class="contact-us-btn">Contact Us</a>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="../lab/images/dish.png" class="dish-image" >
+        </div>
+    </div>
+ <!-- Our Services Section -->
+   <!-- Our Services Section -->
+  <div class="our-services">
+    <h2>Our Services</h2>
+    <div class="services-container">
+
+      <img src="../lab/images/item1.png">
+      <h3>Orange</h3>
+      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+    </div>
+    <div class="services-container">
+      <img src="../lab/images/item2.png">
+      <h3>Grapes</h3>
+      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+    </div>
+    <div class="services-container">
+      <img src="../lab/images/item.png">
+      <h3>Guava</h3>
+      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+    </div>
+    </br><a href="home.html" class="read-more-btn">Read More</a>
+  </div>
+
+  <!-- Fresh Fruits Section -->
+<div class="fresh-fruits">
+  <h2>Fresh Fruits</h2></br><p align ="center">There are many variations of passages of Lorem Ipsum available, but the majority have</p>
+  <div class="fruit-elem">
+        <div class="fruit-text-container">
+            <h3>Best Fresh Orange</h3>
+<p class ="best fresh">but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be</p>
+            <div class="button-container">
+             
+                <a href="home.html" class="fruit-buy-now-btn">BUY NOW</a>
+            </div>
+        </div>
+        <div class="fruit-container">
+            <img src="../lab/images/orange.png" class="dish-image" >
+        </div>
+    </div>
+
+  <div class="fruit-elem">
+        <div class="fruit-text-container">
+            <h3>Best Fresh Grapes</h3>
+<p class ="best fresh">but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be</p>
+            <div class="button-container">
+                
+                <a href="home.html" class="fruit-buy-now-btn">BUY NOW</a>
+            </div>
+        </div>
+        <div class="fruit-container">
+            <img src="../lab/images/grapes.png" class="dish-image" >
+        </div>
+    </div>
+
+ <div class="fruit-elem">
+        <div class="fruit-text-container">
+            <h3>Best Fresh Gauva</h3>
+<p class ="best fresh">but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be</p>
+            <div class="button-container">
+                
+                <a href="home.html" class="fruit-buy-now-btn">BUY NOW</a>
+            </div>
+        </div>
+        <div class="fruit-container">
+            <img src="../lab/images/gauva.png" class="dish-image" >
+        </div>
+    </div>
+ <!-- tasty Section -->
+
+  <div class="image-back-container">
+    <img src="../lab/images/tasty.png" class="background-image">
+    <div class="overlay-text">Very Tasty Fruits</div>
+ <!-- Testimonial Section -->
+   
+  <div class="testimonial-section">
+    <h2>Testimonial</h2>
+    <div class="testimonial-container">
+ <p>There are many variations of passages of Lorem Ipsum available, but the majority have</p>
+      <img src="../lab/images/client.png">
+      <p id ="client-name" > Johnhex </p>
+      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,by injected humour,</br> or randomised words which don't look even slightly believable.</p>
+    </div>
+   
+
+ <!--contact us  Section -->
+   <div class="contact-section">
+    <div class="form-container">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" name="name" placeholder="Name" >
+        <input type="tel" name="phone" placeholder="Phone Number" >
+        <input type="email" name="email" placeholder="Email" >
+        <input type = "message" name="message" placeholder="Message" class="mes">
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    <div class="image-contact-container">
+      <img src="../lab/images/orange-dish.png" />
+    </div>
+  </div>
+
+
+  <!-- Footer section -->
+
+
+
+
+  <div class="footer-section">
+    <!-- Footer Content -->
+    <div class="footer-container">
+      <!-- Fruits Column -->
+      <div class="footer-column">
+        <p id= "column-head">Fruits</p>
+               <p>Randomised</br>words which</br> don't look even</br> slightly </br>believable. If you </br>are going to use</br> a passage of </br>Lorem Ipsum,</p>
+      </div>
+
+      <!-- Services Column -->
+      <div class="footer-column">
+        <p id= "column-head">Services</p>
+        <p>Randomised</br>words which</br> don't look even</br> slightly </br>believable. If you </br>are going to use</br> a passage of </br>Lorem Ipsum,</p>
+      </div>
+
+      <!-- List Column -->
+      <div class="footer-column">
+        <p id= "column-head">List</p>
+                <p>Randomised</br>words which</br> don't look even</br> slightly </br>believable. If you </br>are going to use</br> a passage of </br>Lorem Ipsum,</p>
+      </div>
+
+      <!-- Follow Us Column -->
+      <div class="footer-column">
+        <p id= "column-head">Follow Us</p>
+        <div class="social-icons">
+          <a href="http://www.facebook.com"><img src="../lab/images/fb.png" ></a>
+          <a href="http://www.twitter.com"><img src="../lab/images/twitter.png" ></a>
+          <a href="http://www.linkedin.com"><img src="../lab/images/linkedin.png" ></a>
+          <a href="http://www.instagram.com"><img src="../lab/images/instagram.png" ></a>
+        </div>
+        <div class="subscribe-form">
+          <p>Subscribe Now</p>
+          <input type="email" placeholder=" ">
+          <button>Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Copyright Section -->
+  <div class="copyright">
+    Copyright © All Rights Reserved
+  </div>
+
+</body>
+</html>
